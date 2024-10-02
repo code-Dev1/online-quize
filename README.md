@@ -1,8 +1,7 @@
 # Online quize system with leaderboard
 ---
-### This project is related to the developer group
+### This project is related to the developer team
 
-Developer gruop have 5 member
 |Name  |Role |
 |------|-----|
 |Mohammad Samim jalai |Leader |
