@@ -5,4 +5,9 @@
 Developer gruop have 5 member
 |Name  |Role |
 |------|-----|
-|shahzada|front-end developer|
+|Shahzada Mohammadi |Front-end developer|
+|Shahzada Mohammadi |Front-end developer|
+|Shahzada Mohammadi |Front-end developer|
+|Shahzada Mohammadi |Front-end developer|
+|Shahzada Mohammadi |Front-end developer|
+
