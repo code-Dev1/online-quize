@@ -5,9 +5,9 @@
 Developer gruop have 5 member
 |Name  |Role |
 |------|-----|
+|Mohammad Samim jalai |Leader |
+|Mohammad jaweed samadi |Back-end developer|
 |Shahzada Mohammadi |Front-end developer|
-|Shahzada Mohammadi |Front-end developer|
-|Shahzada Mohammadi |Front-end developer|
-|Shahzada Mohammadi |Front-end developer|
-|Shahzada Mohammadi |Front-end developer|
+|Eekmatullah waziry |Database desginer|
+|Abdulawal Mohammadi |Tester|
 
