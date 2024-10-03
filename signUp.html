@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="Assets/css/bootstrap.css">
   <link rel="stylesheet" href="Assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="Assets/css/style.css">
-  <title>Online Quiz</title>
+  <title>Self-test</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     data-navbar-on-scroll="data-navbar-on-scroll">
     <div class="container">
       <a class="navbar-brand mt-1" href="#" style="text-align: center; ">
-        <img src="Assets/images/logo.png" width="30" class="mb-2" alt=""><samp class="ms-2">AFGHANISTANS</samp>
+        <img src="Assets/images/logo.png" width="30" class="mb-2" alt=""><samp class="ms-2">Self-test</samp>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
           </li>
         </ul>
         <div class="d-lg-flex w-100 justify-content-end">
-          <a href="login.html" class="text-white nav-icon"><i class="fa fa-power-off me-2"></i></a>
+          <a href="signIn.html" class="text-white nav-icon"><i class="fa fa-power-off me-2"></i></a>
         </div>
       </div>
     </div>
@@ -51,27 +51,35 @@
         <div class="col-md-10 col-lg-8 col-xl-7 mb-5">
           <div class="card shadow mt-5 mb-5">
             <div class="card-header">
-              <h2>Login</h2>
+              <h2>Sign Up</h2>
             </div>
             <form action="">
               <div class="card-body">
+                <div class="form-floating border-bottom mb-3">
+                  <input type="email" class="border-0 form-control" id="fullname" placeholder="Full Name" required>
+                  <label for="fullname">Full Name</label>
+                </div>
+                <div class="form-floating border-bottom mb-3">
+                  <input type="email" class="border-0 form-control" id="username" placeholder="Username" required>
+                  <label for="username">Username</label>
+                </div>
                 <div class="form-floating border-bottom mb-3">
                   <input type="email" class="border-0 form-control" id="email" placeholder="Email" required>
                   <label for="email">Email</label>
                 </div>
                 <div class="form-floating border-bottom mb-3">
                   <input type="password" class="border-0 form-control" id="password" placeholder="Password" required>
-                  <label for="email">Password</label>
+                  <label for="password">Password</label>
                 </div>
-                <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" name="" id="remembar">
-                  <label class="form-check-label" for="remembar">Remembar</label>
+                <div class="form-floating border-bottom mb-3">
+                  <input type="password" class="border-0 form-control" id="confirm" placeholder="Password" required>
+                  <label for="confirm">Confirm Password</label>
                 </div>
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-                  <a href="forgot.html">Forgot password?</a>
-                  <input class="btn btn-dark" type="submit" value="Login">
+                  <a href="signIn.html">Sign In</a>
+                  <input class="btn btn-dark" type="submit" value="Sign Up">
                 </div>
               </div>
             </form>
@@ -87,7 +95,7 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 text-light mt-5 text-center">
           <img class="mb-4" src="Assets/images/2.jpg" width="40" alt="logo">
-          <span class="ps-2 fs-4">AFGHANISTANS</span>
+          <span class="ps-2 fs-4">Self-test</span>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Placeat, dolor natus laudantium a id adipisci officiis laborum illo quasi,
             blanditiis ex, ratione quos temporibus reprehenderit at iure? Veritatis,

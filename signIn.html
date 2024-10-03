@@ -35,58 +35,60 @@
           </li>
         </ul>
         <div class="d-lg-flex w-100 justify-content-end">
-          <a href="signIn.html" class="text-white"><i class="fa fa-power-off me-2"></i></a>
+          <a href="signIn.html" class="text-white nav-icon"><i class="fa fa-power-off me-2"></i></a>
         </div>
       </div>
     </div>
   </nav>
-  <header class="header-img" style="background-image: url(Assets/images/contact-bg.jpg)">
+  <header class="header-img" style="background-image: url(Assets/images/home-bg.jpg); height: 10rem;">
     <div>
-      <div class="container px-4 px-lg-5">
-        <div class="row justify-content-center gx-4 gx-lg-5">
-          <div class="col-md-10 col-lg-8 col-xl-7">
-            <div class="page-header text-white">
-              <h1 class="header-font">Contact Me</h1>
-              <span class="h5">Have questions? I have answers.</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </header>
   <!-- start main  -->
   <main class="mt-5 mb-5">
-    <div class="container px-4 px-lg-5 mb-5">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-          <form action="">
-            <div class="form-floating mb-3 border-bottom">
-              <input type="text" class="form-control border-0" id="name" placeholder="Name" required>
-              <label for="name">Name</label>
+    <div class="container px-4 px-lg-5 mt-5 mb-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+        <div class="col-md-10 col-lg-8 col-xl-7 mb-5">
+          <div class="card shadow mt-5 mb-5">
+            <div class="card-header">
+              <h2>Sign In</h2>
             </div>
-            <div class="form-floating mb-3 border-bottom">
-              <input type="Email" class="form-control border-0" id="email" placeholder="Email" required>
-              <label for="name">Email</label>
-            </div>
-            <div class="form-floating mb-2 border-bottom">
-              <textarea name="" class="border-0 form-control" id="message" placeholder="Enter your message here"
-                style="height:12rem" required></textarea>
-              <label for="message">Message</label>
-            </div>
-            <input type="submit" class="btn btn-dark text-uppercase float-end" value="Send">
-          </form>
+            <form action="">
+              <div class="card-body">
+                <div class="form-floating border-bottom mb-3">
+                  <input type="email" class="border-0 form-control" id="email" placeholder="Email" required>
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-floating border-bottom mb-3">
+                  <input type="password" class="border-0 form-control" id="password" placeholder="Password" required>
+                  <label for="email">Password</label>
+                </div>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" name="" id="remembar">
+                  <label class="form-check-label" for="remembar">Remembar</label>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+                  <a href="signUp.html">Sign Up</a>
+                  <a href="forgot.html">Forgot password?</a>
+                  <input class="btn btn-dark" type="submit" value="Sign In">
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </main>
   <!-- end main  -->
   <!-- start footer -->
-  <footer class="bg-dark footer">
+  <footer class="bg-dark footer mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-6 text-light mt-5 text-center">
           <img class="mb-4" src="Assets/images/2.jpg" width="40" alt="logo">
-          <span class="ps-2 pb-4 fs-4">Self-test</span>
+          <span class="ps-2 fs-4">Self-test</span>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Placeat, dolor natus laudantium a id adipisci officiis laborum illo quasi,
             blanditiis ex, ratione quos temporibus reprehenderit at iure? Veritatis,
@@ -99,7 +101,7 @@
           <p class="text-light  font-monospace">fallow our in social media</p>
         </div>
         <div class="col-md-4 col-sm-6 text-light mt-5 text-center">
-          <p class="pb-3 fs-4">our peshcation</p>
+          <p class="mb-3">our peshcation</p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vel cumque ad accusantium reprehenderit
           ratione, provident unde sit nihil omnis iste laboriosam tempora odio ipsum mollitia voluptatum rerum
           necessitatibus consectetur?
