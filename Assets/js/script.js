@@ -12,4 +12,5 @@ $(document).ready(function () {
         $("#newPass").removeClass("d-none");
     });
     // forgit password page jquery end
+
 });
