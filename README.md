@@ -11,3 +11,4 @@
 |Eekmatullah waziry |Database desginer|
 |Abdulawal Mohammadi |Tester|
 
+Demo [here](https://code-dev1.github.io/online-quize/)
