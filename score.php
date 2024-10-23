@@ -16,7 +16,7 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="dashboard.html">Self-Test</a>
+            <a class="navbar-brand ps-3" href="dashboard.php">Self-Test</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fa fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -39,16 +39,16 @@
                 <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav mt-4">
-                            <a class="nav-link" href="dashboard.html">
+                            <a class="nav-link" href="dashboard.php">
                                 <div class="sb-nav-link-icon"><i class="fa fa-tachometer"></i></div>
                                 Dashboard
                             </a>
-                            <a class="nav-link" href="score.html">
+                            <a class="nav-link" href="score.php">
                                 <div class="sb-nav-link-icon"><i class="fa fa-soccer-ball-o"></i></div>
                                 Score
                             </a>
                             
-                            <a class="nav-link collapsed" href="setting.html" >
+                            <a class="nav-link collapsed" href="setting.php" >
                                 <div class="sb-nav-link-icon"><i class="fa fa-exchange"></i></div>
                                 Settings
                             </a>

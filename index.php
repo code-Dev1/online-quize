@@ -15,7 +15,7 @@
   <nav class="col-md-10 offset-1 navbar-brand navbar navbar-expand-lg navbar-dark fixed-top p-2 nav-color"
     data-navbar-on-scroll="data-navbar-on-scroll">
     <div class="container">
-      <a class="navbar-brand mt-1" href="index.html" style="text-align: center; ">
+      <a class="navbar-brand mt-1" href="index.php" style="text-align: center; ">
         <img src="Assets/images/logo.png" width="30" class="mb-2" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -25,18 +25,18 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-1">
           <li class="nav-item">
-            <a id="nav-bar" class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a id="nav-bar" class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           </li>
           <li class="nav-item">
-            <a id="nav-bar" class="nav-link" href="contact.html">Contact</a>
+            <a id="nav-bar" class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="nav-item">
-            <a id="nav-bar" class="nav-link" href="about.html">About</a>
+            <a id="nav-bar" class="nav-link" href="about.php">About</a>
           </li>
         </ul>
         <div class="d-lg-flex w-100 justify-content-end nav-item">
-          <a href="signIn.html" class="text-white nav-link">Sign in</a>
+          <a href="signIn.php" class="text-white nav-link">Sign in</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
           <div class="col-md-10 col-lg-8 col-xl-7">
             <div class="page-header">
               <span class="text-light fs-2 text-center font-monospace text-uppercase">can you answored our quiz ?</span>
-              <a href="dashboard.html" class="mt-3 btn btn-outline-light">Let's Start ></a>
+              <a href="dashboard.php" class="mt-3 btn btn-outline-light">Let's Start ></a>
             </div>
           </div>
         </div>
